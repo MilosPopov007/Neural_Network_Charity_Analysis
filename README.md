@@ -70,6 +70,8 @@ Using TensorFlow, I tried to optimize our model in order to achieve a target pre
  Finally, I added a callback function to save the model weights every 5 epochs.
  This ensured that we could access the best model weights in case the training was interrupted or if we wanted to load the model at a later time.<br><br>
  
+ ![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/model_1.png)
+ 
 #### Model_Attempt_2 
 
  In attempt number 2, I made two changes to the neural network architecture.
