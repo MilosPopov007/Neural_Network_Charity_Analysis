@@ -90,6 +90,8 @@ It is a self-normalizing activation function, which means it maintains a mean ac
 
 The number of epochs is still set to 50 and we are using the same checkpoint callback to save the model weights every 5 epochs.<br><br>
 
+![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/mode_3.png)
+
 #### Model_Attempt_4 
 
 Noisy variables are removed from features ('SPECIAL_CONSIDERATIONS').
