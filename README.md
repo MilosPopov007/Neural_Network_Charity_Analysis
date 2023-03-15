@@ -55,7 +55,7 @@ For our neural network model, we selected a sequential model with three dense la
 During training, we were able to achieve an accuracy of 72.56% and a loss of 0.5744.<br> While this was close to our target performance of 75% accuracy, we still wanted to try and optimize the model further to see if we could improve performance.<br><br>
 ![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/base_result.png)
 
-### Optimize the Model:
+### [Optimize the Model](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb):
 
 Using TensorFlow, I tried to optimize our model in order to achieve a target predictive accuracy higher than 75%.<br><br>
 #### Model_Attempt_1 
@@ -101,6 +101,8 @@ To optimize the model, I increased the number of neurons in the first hidden lay
 I decided to drop "SPECIAL_CONSIDERATIONS" column, because it had very few unique values, and most of the values were "N" with a few "Y"s, which would not contribute much to the model's predictive power.<br>
 By dropping this column, I simplified the model and reduced the number of input features.<br><br>
 
-![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/model_4.png)
+![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/model_4.png)<br><br>
+
+## Summary: 
 
 
