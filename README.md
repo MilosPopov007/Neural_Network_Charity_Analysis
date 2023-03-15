@@ -80,6 +80,8 @@ Using TensorFlow, I tried to optimize our model in order to achieve a target pre
  Second, I added a third hidden layer with 20 neurons.
  We trained the model for 50 epochs and saved the weights every 5 epochs using a callback.<br><br>
  
+ ![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/model_2.png)
+ 
  #### Model_Attempt_3 
 
 I increased the number of neurons in each layer, added a fourth hidden layer, and changed the activation functions of all layers to "selu" except for the last layer which remains "sigmoid".<br>SELU (Scaled Exponential Linear Units) is an activation function commonly used in deep neural networks [^1] .
