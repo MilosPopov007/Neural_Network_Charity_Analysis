@@ -99,6 +99,8 @@ Noisy variables are removed from features ('SPECIAL_CONSIDERATIONS').
 To optimize the model, I increased the number of neurons in the first hidden layer to 100, added a third hidden layer with 20 neurons and trained the model for 100 epochs.
 
 I decided to drop "SPECIAL_CONSIDERATIONS" column, because it had very few unique values, and most of the values were "N" with a few "Y"s, which would not contribute much to the model's predictive power.<br>
-By dropping this column, I simplified the model and reduced the number of input features.
+By dropping this column, I simplified the model and reduced the number of input features.<br><br>
+
+![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/model_4.png)
 
 
