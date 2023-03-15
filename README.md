@@ -37,7 +37,6 @@ Breakdown of the steps in [Neural_Network_Charity_Analysis](https://github.com/M
 * Standardize the numerical variables using the StandardScaler() function
 * Split the preprocessed data into features and target arrays
 * Split the preprocessed data into training and testing datasets
-* Save the trained model to an HDF5 file
 
 ### Compile, Train, and Evaluate the Model:
 
@@ -46,5 +45,10 @@ Breakdown of the steps in [Neural_Network_Charity_Analysis](https://github.com/M
 * Compile the model using binary_crossentropy loss function, adam optimizer, and accuracy metric
 * Train the model using the fit() function and the training dataset
 * Evaluate the model using the testing dataset and print the loss and accuracy scores
+* Save the trained model to an HDF5 file<br>
+
+For our neural network model, we selected a sequential model with three dense layers.<br> The first layer had 80 neurons, the second layer had 30 neurons, and the third layer had one neuron.<br> We chose these numbers based on some trial and error, trying to find a balance between complexity and simplicity.<br> We used the ReLU activation function for the first two layers and a sigmoid activation function for the output layer.
+
+During training, we were able to achieve an accuracy of 72.56% and a loss of 0.5744.<br> While this was close to our target performance of 75% accuracy, we still wanted to try and optimize the model further to see if we could improve performance.
 
 ### Optimize the Model:
