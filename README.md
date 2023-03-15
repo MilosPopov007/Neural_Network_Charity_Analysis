@@ -80,7 +80,10 @@ Using TensorFlow, I tried to optimize our model in order to achieve a target pre
  
  #### Model_Attempt_3 
 
-I increased the number of neurons in each layer, added a fourth hidden layer, and changed the activation functions of all layers to "selu" except for the last layer which remains "sigmoid".<br>
+I increased the number of neurons in each layer, added a fourth hidden layer, and changed the activation functions of all layers to "selu" except for the last layer which remains "sigmoid".<br>SELU (Scaled Exponential Linear Units) is an activation function commonly used in deep neural networks [^1] .
+[^1]:SELU activation function official TensorFlow repository: https://github.com/tensorflow/tensorflow
+It is a self-normalizing activation function, which means it maintains a mean activation close to 0 and standard deviation close to 1 during training. This can lead to improved performance and faster convergence in deep neural networks.<br>
+
 The number of epochs is still set to 50 and we are using the same checkpoint callback to save the model weights every 5 epochs.
 
 
