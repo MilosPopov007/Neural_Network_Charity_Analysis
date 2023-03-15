@@ -68,4 +68,13 @@ Using TensorFlow, I tried to optimize our model in order to achieve a target pre
  Decreasing the number of epochs to 50 can potentially reduce overfitting, as the model is less likely to memorize the training data and more likely to learn generalized patterns. It can also speed up the training process, as the model has to process fewer iterations.
 
  Finally, I added a callback function to save the model weights every 5 epochs.
- This ensured that we could access the best model weights in case the training was interrupted or if we wanted to load the model at a later time.
+ This ensured that we could access the best model weights in case the training was interrupted or if we wanted to load the model at a later time.<br><br>
+ 
+#### Model_Attempt_2 
+
+ In attempt number 2, I made two changes to the neural network architecture.
+
+ First, I increased the number of neurons in the first and second hidden layers from 80 and 30 to 100 and 50 respectively.
+ Second, I added a third hidden layer with 20 neurons.
+ We trained the model for 50 epochs and saved the weights every 5 epochs using a callback.
+
