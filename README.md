@@ -46,6 +46,7 @@ Breakdown of the steps in [Neural_Network_Charity_Analysis](https://github.com/M
 * Compile the model using binary_crossentropy loss function, adam optimizer, and accuracy metric
 * Train the model using the fit() function and the training dataset
 * Evaluate the model using the testing dataset and print the loss and accuracy scores
+* Create a checkpoint system to save the model weights every 5 epochs
 * Save the trained model to an HDF5 file<br>
 
 For our neural network model, we selected a sequential model with three dense layers.<br> The first layer had 80 neurons, the second layer had 30 neurons, and the third layer had one neuron.<br> We chose these numbers based on some trial and error, trying to find a balance between complexity and simplicity.<br> We used the ReLU activation function for the first two layers and a sigmoid activation function for the output layer.<br><br>
@@ -55,3 +56,5 @@ During training, we were able to achieve an accuracy of 72.56% and a loss of 0.5
 ![This is an image](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/Resources/base_result.png)
 
 ### Optimize the Model:
+
+Using TensorFlow, I tried to optimize our model in order to achieve a target predictive accuracy higher than 75%.
