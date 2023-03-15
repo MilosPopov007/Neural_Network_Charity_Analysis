@@ -1,2 +1,5 @@
 # Neural_Network_Charity_Analysis
 Neural Networks and Deep Learning Models
+
+
+Nonprofit foundation "Alphabet Soup" is a a philanthropic foundation dedicated to helping organizations that protect the environment and prove people's well-being and unify the world. "Alphabet Soup" has raised and donated over $10 billion in the past 20 years. This money has been used to invest in a life saving technologies and organized reforestation groups around the world. Unfortunately, not every donation the company makes is impactful. In some cases, an organization will take the money and  disappear as a result. "Alphabet soups" President Andy Glad has asked me and my team to predict which organizations are worth donating to and which are too high risk.He wants us to create a mathematical, data-driven solution that can do this accurately. We decided that this problem is too complex for the statistical, machine learning.  Instead we will design and train a Deep Learning Neural Network. This model will evaluate all types of input data and produce a clear decision making result.
