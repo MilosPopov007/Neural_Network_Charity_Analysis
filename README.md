@@ -62,7 +62,7 @@ Using TensorFlow, I tried to optimize our model in order to achieve a target pre
 
  In our first attempt, I made the following changes to the original model:
 
- I changed the binning for the application_type feature from Original to Less than 1000.
+ I changed the binning for the application_type feature from original to Less than 1000.
  This allowed us to better capture the patterns in the data and improve the accuracy of the model.
 
  Decreasing the number of epochs to 50 can potentially reduce overfitting, as the model is less likely to memorize the training data and more likely to learn generalized patterns. It can also speed up the training process, as the model has to process fewer iterations.
