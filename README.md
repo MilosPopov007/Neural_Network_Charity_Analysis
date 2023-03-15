@@ -105,4 +105,10 @@ By dropping this column, I simplified the model and reduced the number of input 
 
 ## Summary: 
 
+Based on the results of our attempts to optimize the model, we were not able to achieve a significant improvement in accuracy beyond the base model's performance of 72.56%. While we did see some fluctuation in accuracy with different optimization attempts, these changes were not substantial enough to meet our target performance of 75% or higher.
+
+I recommend considering the use of a different model to solve the classification problem. This could involve exploring different types of neural networks or considering other machine learning algorithms, such as decision trees or support vector machines (SVMs).
+
+The choice of model ultimately depends on the specific characteristics of the dataset and the nature of the classification problem.<br> Exploring alternative approaches may provide a path towards achieving the desired level of performance.
+
 
