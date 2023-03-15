@@ -76,5 +76,11 @@ Using TensorFlow, I tried to optimize our model in order to achieve a target pre
 
  First, I increased the number of neurons in the first and second hidden layers from 80 and 30 to 100 and 50 respectively.
  Second, I added a third hidden layer with 20 neurons.
- We trained the model for 50 epochs and saved the weights every 5 epochs using a callback.
+ We trained the model for 50 epochs and saved the weights every 5 epochs using a callback.<br><br>
+ 
+ #### Model_Attempt_3 
+
+I increased the number of neurons in each layer, added a fourth hidden layer, and changed the activation functions of all layers to "selu" except for the last layer which remains "sigmoid".<br>
+The number of epochs is still set to 50 and we are using the same checkpoint callback to save the model weights every 5 epochs.
+
 
