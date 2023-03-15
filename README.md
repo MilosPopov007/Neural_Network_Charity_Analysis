@@ -26,7 +26,7 @@ From "Alphabet Soup’s" business team, we received a CSV containing more than 3
 The target variable for our model is the "IS_SUCCESSFUL" column, which indicates whether a charity donation was used effectively.<br>
 The features for our model include all other columns in the dataset, except for the "EIN" and "NAME" columns. These columns do not provide any useful information for predicting the success of a charity donation.<br>
 The "EIN" and "NAME" columns are neither targets nor features, and should be removed from the input data. We dropped these columns using the Pandas DataFrame method drop().<br><br>
-Breakdown of the steps in Neural_Network_Charity_Analysis:<br>
+Breakdown of the steps in [Neural_Network_Charity_Analysis](https://github.com/MilosPopov007/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb):<br>
 
 ### Preprocessing Data for a Neural Network Model:
 
