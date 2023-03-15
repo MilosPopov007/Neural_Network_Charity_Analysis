@@ -26,3 +26,25 @@ From "Alphabet Soup’s" business team, we received a CSV containing more than 3
 The target variable for our model is the "IS_SUCCESSFUL" column, which indicates whether a charity donation was used effectively.<br>
 The features for our model include all other columns in the dataset, except for the "EIN" and "NAME" columns. These columns do not provide any useful information for predicting the success of a charity donation.<br>
 The "EIN" and "NAME" columns are neither targets nor features, and should be removed from the input data. We dropped these columns using the Pandas DataFrame method drop().<br><br>
+Breakdown of the steps in Neural_Network_Charity_Analysis:<br>
+
+### Preprocessing Data for a Neural Network Model:
+
+* Load and transform the input data
+* Preprocess the data by performing the following steps :
+* Drop the non-beneficial ID columns
+* Encode the categorical variables using one-hot encoding
+* Standardize the numerical variables using the StandardScaler() function
+* Split the preprocessed data into features and target arrays
+* Split the preprocessed data into training and testing datasets
+* Save the trained model to an HDF5 file
+
+### Compile, Train, and Evaluate the Model:
+
+* Define the model architecture using the Sequential() function from the TensorFlow Keras library
+* Add layers to the model using the Dense() function from the TensorFlow Keras library
+* Compile the model using binary_crossentropy loss function, adam optimizer, and accuracy metric
+* Train the model using the fit() function and the training dataset
+* Evaluate the model using the testing dataset and print the loss and accuracy scores
+
+### Optimize the Model:
